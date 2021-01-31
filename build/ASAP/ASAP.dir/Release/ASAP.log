@@ -1,0 +1,7 @@
+﻿  Automatic MOC and UIC for target ASAP
+  Building Custom Rule C:/ASAP-1.9/src/ASAP/CMakeLists.txt
+  mocs_compilation.cpp
+  main.cpp
+  qrc_ASAP_resources.cpp
+  Generating Code...
+  ASAP.vcxproj -> C:\ASAP-1.9\build\ASAP\Release\ASAP.exe

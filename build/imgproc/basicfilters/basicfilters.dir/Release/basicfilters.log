@@ -1,0 +1,8 @@
+﻿  Building Custom Rule C:/ASAP-1.9/src/imgproc/basicfilters/CMakeLists.txt
+  FilterBase.cpp
+C:\ASAP-1.9\src\imgproc\basicfilters\FilterBase.cpp(55): warning C4244: 'argument': conversion from 'float' to 'const unsigned int', possible loss of data
+  ImageFilter.cpp
+  ColorDeconvolutionFilter.cpp
+  Generating Code...
+     Creating library C:/ASAP-1.9/build/imgproc/basicfilters/Release/basicfilters.lib and object C:/ASAP-1.9/build/imgproc/basicfilters/Release/basicfilters.exp
+  basicfilters.vcxproj -> C:\ASAP-1.9\build\imgproc\basicfilters\Release\basicfilters.dll

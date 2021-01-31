@@ -1,0 +1,11 @@
+prefix=C:\libs\pugixml-1.9
+exec_prefix=${prefix}
+includedir=${prefix}/include/pugixml-1.9
+libdir=${exec_prefix}/lib/pugixml-1.9
+
+Name: pugixml
+Description: Light-weight, simple and fast XML parser for C++ with XPath support.
+URL: http://pugixml.org/
+Version: 1.9
+Cflags: -I${includedir}
+Libs: -L${libdir} -lpugixml

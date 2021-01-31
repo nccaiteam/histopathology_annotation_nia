@@ -1,0 +1,41 @@
+# CMake generation dependency list for this directory.
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5/Qt5Config.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5UiTools/Qt5UiToolsConfig.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5UiTools/Qt5UiToolsConfigVersion.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake
+C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake
+C:/ASAP-1.9/src/ASAP/CMakeLists.txt
+C:/ASAP-1.9/src/ASAP/resources/ASAP_resources.qrc
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/exportheader.cmake.in

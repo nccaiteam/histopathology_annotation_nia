@@ -1,0 +1,21 @@
+﻿  Building Custom Rule C:/ASAP-1.9/src/imgproc/FRST/CMakeLists.txt
+  FRST.cpp
+C:\ASAP-1.9\src\imgproc\FRST\FRST.cpp(27): warning C4305: 'argument': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+C:\ASAP-1.9\src\imgproc\FRST\FRST.cpp(70): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\ASAP-1.9\src\imgproc\FRST\FRST.cpp(78): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\ASAP-1.9\src\imgproc\FRST\FRST.cpp(79): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\ASAP-1.9\src\imgproc\FRST\FRST.cpp(90): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\ASAP-1.9\src\imgproc\FRST\FRST.cpp(91): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\ASAP-1.9\src\imgproc\FRST\FRST.cpp(104): warning C4244: 'initializing': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\ASAP-1.9\src\imgproc\FRST\FRST.cpp(117): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\ASAP-1.9\src\imgproc\FRST\FRST.cpp(120): warning C4244: 'argument': conversion from 'unsigned __int64' to 'double', possible loss of data
+     Creating library C:/ASAP-1.9/build/imgproc/FRST/Release/FRST.lib and object C:/ASAP-1.9/build/imgproc/FRST/Release/FRST.exp
+  FRST.vcxproj -> C:\ASAP-1.9\build\imgproc\FRST\Release\FRST.dll

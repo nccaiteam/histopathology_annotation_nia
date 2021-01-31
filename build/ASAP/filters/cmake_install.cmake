@@ -1,0 +1,121 @@
+# Install script for directory: C:/ASAP-1.9/src/ASAP/filters
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "C:\ASAP-1.9\install")
+endif()
+string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
+
+# Set the install configuration name.
+if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
+  if(BUILD_TYPE)
+    string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
+           CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
+  else()
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+  endif()
+  message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
+endif()
+
+# Set the component getting installed.
+if(NOT CMAKE_INSTALL_COMPONENT)
+  if(COMPONENT)
+    message(STATUS "Install component: \"${COMPONENT}\"")
+    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")
+  else()
+    set(CMAKE_INSTALL_COMPONENT)
+  endif()
+endif()
+
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/plugins/filters" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/ASAP-1.9/build/ASAP/filters/Debug/NucleiDetectionFilterPlugin_d.lib")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/plugins/filters" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/ASAP-1.9/build/ASAP/filters/Release/NucleiDetectionFilterPlugin.lib")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/plugins/filters" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/ASAP-1.9/build/ASAP/filters/MinSizeRel/NucleiDetectionFilterPlugin.lib")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/plugins/filters" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/ASAP-1.9/build/ASAP/filters/RelWithDebInfo/NucleiDetectionFilterPlugin.lib")
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/plugins/filters" TYPE SHARED_LIBRARY FILES "C:/ASAP-1.9/build/ASAP/filters/Debug/NucleiDetectionFilterPlugin_d.dll")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/plugins/filters" TYPE SHARED_LIBRARY FILES "C:/ASAP-1.9/build/ASAP/filters/Release/NucleiDetectionFilterPlugin.dll")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/plugins/filters" TYPE SHARED_LIBRARY FILES "C:/ASAP-1.9/build/ASAP/filters/MinSizeRel/NucleiDetectionFilterPlugin.dll")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/plugins/filters" TYPE SHARED_LIBRARY FILES "C:/ASAP-1.9/build/ASAP/filters/RelWithDebInfo/NucleiDetectionFilterPlugin.dll")
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ASAP/plugins/filters" TYPE FILE FILES "C:/ASAP-1.9/src/ASAP/filters/NucleiDetectionFilterPlugin.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/plugins/filters" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/ASAP-1.9/build/ASAP/filters/Debug/ColorDeconvolutionFilterPlugin_d.lib")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/plugins/filters" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/ASAP-1.9/build/ASAP/filters/Release/ColorDeconvolutionFilterPlugin.lib")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/plugins/filters" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/ASAP-1.9/build/ASAP/filters/MinSizeRel/ColorDeconvolutionFilterPlugin.lib")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/plugins/filters" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/ASAP-1.9/build/ASAP/filters/RelWithDebInfo/ColorDeconvolutionFilterPlugin.lib")
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/plugins/filters" TYPE SHARED_LIBRARY FILES "C:/ASAP-1.9/build/ASAP/filters/Debug/ColorDeconvolutionFilterPlugin_d.dll")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/plugins/filters" TYPE SHARED_LIBRARY FILES "C:/ASAP-1.9/build/ASAP/filters/Release/ColorDeconvolutionFilterPlugin.dll")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/plugins/filters" TYPE SHARED_LIBRARY FILES "C:/ASAP-1.9/build/ASAP/filters/MinSizeRel/ColorDeconvolutionFilterPlugin.dll")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/plugins/filters" TYPE SHARED_LIBRARY FILES "C:/ASAP-1.9/build/ASAP/filters/RelWithDebInfo/ColorDeconvolutionFilterPlugin.dll")
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/plugins/workstationextension" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/ASAP-1.9/build/ASAP/filters/Debug/FilterWorkstationExtensionPlugin_d.lib")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/plugins/workstationextension" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/ASAP-1.9/build/ASAP/filters/Release/FilterWorkstationExtensionPlugin.lib")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/plugins/workstationextension" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/ASAP-1.9/build/ASAP/filters/MinSizeRel/FilterWorkstationExtensionPlugin.lib")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/plugins/workstationextension" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/ASAP-1.9/build/ASAP/filters/RelWithDebInfo/FilterWorkstationExtensionPlugin.lib")
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/plugins/workstationextension" TYPE SHARED_LIBRARY FILES "C:/ASAP-1.9/build/ASAP/filters/Debug/FilterWorkstationExtensionPlugin_d.dll")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/plugins/workstationextension" TYPE SHARED_LIBRARY FILES "C:/ASAP-1.9/build/ASAP/filters/Release/FilterWorkstationExtensionPlugin.dll")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/plugins/workstationextension" TYPE SHARED_LIBRARY FILES "C:/ASAP-1.9/build/ASAP/filters/MinSizeRel/FilterWorkstationExtensionPlugin.dll")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/plugins/workstationextension" TYPE SHARED_LIBRARY FILES "C:/ASAP-1.9/build/ASAP/filters/RelWithDebInfo/FilterWorkstationExtensionPlugin.dll")
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ASAP/plugins/filters" TYPE FILE FILES "C:/ASAP-1.9/src/ASAP/filters/ColorDeconvolutionFilterPlugin.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ASAP/plugins/workstationextension" TYPE FILE FILES
+    "C:/ASAP-1.9/src/ASAP/filters/FilterThread.h"
+    "C:/ASAP-1.9/src/ASAP/filters/FilterDockWidget.h"
+    )
+endif()
+

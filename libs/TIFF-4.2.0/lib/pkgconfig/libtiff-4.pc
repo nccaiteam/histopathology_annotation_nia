@@ -1,0 +1,11 @@
+prefix=D:\CMake\TIFF\install
+exec_prefix=D:\CMake\TIFF\install
+libdir=D:\CMake\TIFF\install/lib
+includedir=D:\CMake\TIFF\install/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 4.2.0
+Libs: -LD:\CMake\TIFF\install/lib -ltiff
+Libs.private: 
+Cflags: -ID:\CMake\TIFF\install/include

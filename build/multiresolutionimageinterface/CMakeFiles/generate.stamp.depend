@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/ASAP-1.9/src/cmakemodules/FindDCMTKJPEG.cmake
+C:/ASAP-1.9/src/multiresolutionimageinterface/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/exportheader.cmake.in

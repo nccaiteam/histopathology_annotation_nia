@@ -1,0 +1,493 @@
+﻿  CMake Warning (dev) at cmake_install.cmake:5 (set):
+    Syntax error in cmake code at
+  
+      C:/ASAP-1.9/build/cmake_install.cmake:5
+  
+    when parsing string
+  
+      C:\ASAP-1.9\install
+  
+    Invalid escape sequence \A
+  
+    Policy CMP0010 is not set: Bad variable reference syntax is an error.  Run
+    "cmake --help-policy CMP0010" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  -- Install configuration: "Release"
+  -- Installing: C:\ASAP-1.9\install/cmake/ASAPConfig.cmake
+  -- Installing: C:\ASAP-1.9\install/cmake/ASAPConfigVersion.cmake
+  -- Installing: C:\ASAP-1.9\install/cmake/asap-targets.cmake
+  -- Installing: C:\ASAP-1.9\install/cmake/asap-targets-release.cmake
+  -- Installing: C:\ASAP-1.9\install/lib/core.lib
+  -- Installing: C:\ASAP-1.9\install/bin/core.dll
+  -- Installing: C:\ASAP-1.9\install/include/core/filetools.h
+  -- Installing: C:\ASAP-1.9\install/include/core/stringconversion.h
+  -- Installing: C:\ASAP-1.9\install/include/core/PathologyEnums.h
+  -- Installing: C:\ASAP-1.9\install/include/core/ImageSource.h
+  -- Installing: C:\ASAP-1.9\install/include/core/Patch.h
+  -- Installing: C:\ASAP-1.9\install/include/core/Patch.hpp
+  -- Installing: C:\ASAP-1.9\install/include/core/Box.h
+  -- Installing: C:\ASAP-1.9\install/include/core/Point.h
+  -- Installing: C:\ASAP-1.9\install/include/core/ProgressMonitor.h
+  -- Installing: C:\ASAP-1.9\install/include/core/CmdLineProgressMonitor.h
+  -- Installing: C:\ASAP-1.9\install/include/core/core_export.h
+  -- Installing: C:\ASAP-1.9\install/include/multiresolutionimageinterface/MultiResolutionImageReader.h
+  -- Installing: C:\ASAP-1.9\install/include/multiresolutionimageinterface/MultiResolutionImageWriter.h
+  -- Installing: C:\ASAP-1.9\install/include/multiresolutionimageinterface/AperioSVSWriter.h
+  -- Installing: C:\ASAP-1.9\install/include/multiresolutionimageinterface/TIFFImage.h
+  -- Installing: C:\ASAP-1.9\install/include/multiresolutionimageinterface/TIFFImageFactory.h
+  -- Installing: C:\ASAP-1.9\install/include/multiresolutionimageinterface/MultiResolutionImage.h
+  -- Installing: C:\ASAP-1.9\install/include/multiresolutionimageinterface/MultiResolutionImageFactory.h
+  -- Installing: C:\ASAP-1.9\install/include/multiresolutionimageinterface/TileCache.h
+  -- Installing: C:\ASAP-1.9\install/include/multiresolutionimageinterface/LIFImage.h
+  -- Installing: C:\ASAP-1.9\install/include/multiresolutionimageinterface/LIFImageFactory.h
+  -- Installing: C:\ASAP-1.9\install/include/multiresolutionimageinterface/VSIImage.h
+  -- Installing: C:\ASAP-1.9\install/include/multiresolutionimageinterface/VSIImageFactory.h
+  -- Installing: C:\ASAP-1.9\install/include/multiresolutionimageinterface/JPEG2000Codec.h
+  -- Installing: C:\ASAP-1.9\install/include/multiresolutionimageinterface/multiresolutionimageinterface_export.h
+  -- Installing: C:\ASAP-1.9\install/include/multiresolutionimageinterface/openslidefileformat_export.h
+  -- Installing: C:\ASAP-1.9\install/lib/multiresolutionimageinterface.lib
+  -- Installing: C:\ASAP-1.9\install/bin/multiresolutionimageinterface.dll
+  -- Installing: C:\ASAP-1.9\install/lib/jpeg2kcodec.lib
+  -- Installing: C:\ASAP-1.9\install/bin/jpeg2kcodec.dll
+  -- Installing: C:\ASAP-1.9\install/lib/openslidefileformat.lib
+  -- Installing: C:\ASAP-1.9\install/bin/formats/openslidefileformat.dll
+  -- Installing: C:\ASAP-1.9\install/lib/annotation.lib
+  -- Installing: C:\ASAP-1.9\install/bin/annotation.dll
+  -- Installing: C:\ASAP-1.9\install/include/annotation/Annotation.h
+  -- Installing: C:\ASAP-1.9\install/include/annotation/AnnotationBase.h
+  -- Installing: C:\ASAP-1.9\install/include/annotation/AnnotationToMask.h
+  -- Installing: C:\ASAP-1.9\install/include/annotation/AnnotationGroup.h
+  -- Installing: C:\ASAP-1.9\install/include/annotation/AnnotationList.h
+  -- Installing: C:\ASAP-1.9\install/include/annotation/AnnotationService.h
+  -- Installing: C:\ASAP-1.9\install/include/annotation/XmlRepository.h
+  -- Installing: C:\ASAP-1.9\install/include/annotation/NDPARepository.h
+  -- Installing: C:\ASAP-1.9\install/include/annotation/ImageScopeRepository.h
+  -- Installing: C:\ASAP-1.9\install/include/annotation/Repository.h
+  -- Installing: C:\ASAP-1.9\install/include/annotation/annotation_export.h
+  -- Installing: C:\ASAP-1.9\install/include/imgproc/basicfilters/FilterBase.h
+  -- Installing: C:\ASAP-1.9\install/include/imgproc/basicfilters/ColorDeconvolutionFilter.h
+  -- Installing: C:\ASAP-1.9\install/include/imgproc/basicfilters/ImageFilter.h
+  -- Installing: C:\ASAP-1.9\install/include/imgproc/basicfilters/basicfilters_export.h
+  -- Installing: C:\ASAP-1.9\install/lib/basicfilters.lib
+  -- Installing: C:\ASAP-1.9\install/bin/basicfilters.dll
+  -- Installing: C:\ASAP-1.9\install/include/imgproc/opencvfilters/DIAGPathologyOpenCVBridge.h
+  -- Installing: C:\ASAP-1.9\install/include/imgproc/opencvfilters/NucleiDetectionFilter.h
+  -- Installing: C:\ASAP-1.9\install/bin/opencvfilters.dll
+  -- Installing: C:\ASAP-1.9\install/lib/FRST.lib
+  -- Installing: C:\ASAP-1.9\install/bin/FRST.dll
+  -- Installing: C:\ASAP-1.9\install/include/imgproc/FRST/FRST.h
+  -- Installing: C:\ASAP-1.9\install/include/imgproc/FRST/frst_export.h
+  -- Installing: C:\ASAP-1.9\install/include/imgproc/wholeslidefilters/ConnectedComponentsWholeSlideFilter.h
+  -- Installing: C:\ASAP-1.9\install/include/imgproc/wholeslidefilters/DistanceTransformWholeSlideFilter.h
+  -- Installing: C:\ASAP-1.9\install/include/imgproc/wholeslidefilters/LabelStatisticsWholeSlideFilter.h
+  -- Installing: C:\ASAP-1.9\install/include/imgproc/wholeslidefilters/ThresholdWholeSlideFilter.h
+  -- Installing: C:\ASAP-1.9\install/include/imgproc/wholeslidefilters/ArithmeticWholeSlideFilter.h
+  -- Installing: C:\ASAP-1.9\install/include/imgproc/wholeslidefilters/wholeslidefilters_export.h
+  -- Installing: C:\ASAP-1.9\install/lib/wholeslidefilters.lib
+  -- Installing: C:\ASAP-1.9\install/bin/wholeslidefilters.dll
+  -- Installing: C:\ASAP-1.9\install/bin/ASAP.exe
+  -- Installing: C:\ASAP-1.9\install/lib/ASAPLib.lib
+  -- Installing: C:\ASAP-1.9\install/bin/ASAPLib.dll
+  -- Installing: C:\ASAP-1.9\install/include/ASAP/ASAP.h
+  -- Installing: C:\ASAP-1.9\install/include/ASAP/PathologyViewer.h
+  -- Installing: C:\ASAP-1.9\install/include/ASAP/WSITileGraphicsItemCache.h
+  -- Installing: C:\ASAP-1.9\install/include/ASAP/MiniMap.h
+  -- Installing: C:\ASAP-1.9\install/include/ASAP/RenderThread.h
+  -- Installing: C:\ASAP-1.9\install/include/ASAP/RenderWorker.h
+  -- Installing: C:\ASAP-1.9\install/include/ASAP/TileManager.h
+  -- Installing: C:\ASAP-1.9\install/include/ASAP/PrefetchThread.h
+  -- Installing: C:\ASAP-1.9\install/include/ASAP/WSITileGraphicsItem.h
+  -- Installing: C:\ASAP-1.9\install/include/ASAP/UtilityFunctions.h
+  -- Installing: C:\ASAP-1.9\install/include/ASAP/ScaleBar.h
+  -- Installing: C:\ASAP-1.9\install/include/ASAP/interfaces.h
+  -- Installing: C:\ASAP-1.9\install/include/ASAP/QtProgressMonitor.h
+  -- Installing: C:\ASAP-1.9\install/include/ASAP/asaplib_export.h
+  -- Installing: C:\ASAP-1.9\install/lib/plugins/workstationextension/AnnotationPlugin.lib
+  -- Installing: C:\ASAP-1.9\install/bin/plugins/workstationextension/AnnotationPlugin.dll
+  -- Installing: C:\ASAP-1.9\install/include/ASAP/plugins/workstationextension/annotationplugin_export.h
+  -- Installing: C:\ASAP-1.9\install/lib/plugins/workstationextension/VisualizationWorkstationExtensionPlugin.lib
+  -- Installing: C:\ASAP-1.9\install/bin/plugins/workstationextension/VisualizationWorkstationExtensionPlugin.dll
+  -- Installing: C:\ASAP-1.9\install/include/ASAP/plugins/workstationextension/VisualizationWorkstationExtensionPlugin.h
+  -- Installing: C:\ASAP-1.9\install/lib/plugins/filters/NucleiDetectionFilterPlugin.lib
+  -- Installing: C:\ASAP-1.9\install/bin/plugins/filters/NucleiDetectionFilterPlugin.dll
+  -- Installing: C:\ASAP-1.9\install/include/ASAP/plugins/filters/NucleiDetectionFilterPlugin.h
+  -- Installing: C:\ASAP-1.9\install/lib/plugins/filters/ColorDeconvolutionFilterPlugin.lib
+  -- Installing: C:\ASAP-1.9\install/bin/plugins/filters/ColorDeconvolutionFilterPlugin.dll
+  -- Installing: C:\ASAP-1.9\install/lib/plugins/workstationextension/FilterWorkstationExtensionPlugin.lib
+  -- Installing: C:\ASAP-1.9\install/bin/plugins/workstationextension/FilterWorkstationExtensionPlugin.dll
+  -- Installing: C:\ASAP-1.9\install/include/ASAP/plugins/filters/ColorDeconvolutionFilterPlugin.h
+  -- Installing: C:\ASAP-1.9\install/include/ASAP/plugins/workstationextension/FilterThread.h
+  -- Installing: C:\ASAP-1.9\install/include/ASAP/plugins/workstationextension/FilterDockWidget.h
+  -- Installing: C:\ASAP-1.9\install/lib/plugins/tools/PanToolPlugin.lib
+  -- Installing: C:\ASAP-1.9\install/bin/plugins/tools/PanToolPlugin.dll
+  -- Installing: C:\ASAP-1.9\install/lib/plugins/tools/ZoomToolPlugin.lib
+  -- Installing: C:\ASAP-1.9\install/bin/plugins/tools/ZoomToolPlugin.dll
+  -- Installing: C:\ASAP-1.9\install/include/ASAP/plugins/tools/PanTool.h
+  -- Installing: C:\ASAP-1.9\install/include/ASAP/plugins/tools/ZoomTool.h
+  -- Installing: C:\ASAP-1.9\install/bin/msvcp140.dll
+  -- Installing: C:\ASAP-1.9\install/bin/msvcp140_1.dll
+  -- Installing: C:\ASAP-1.9\install/bin/msvcp140_2.dll
+  -- Installing: C:\ASAP-1.9\install/bin/vcruntime140.dll
+  -- Installing: C:\ASAP-1.9\install/bin/concrt140.dll
+  -- Up-to-date: C:\ASAP-1.9\install/bin
+  CMake Warning (dev) at buildtools/cmake_install.cmake:51 (file):
+    Syntax error in cmake code at
+  
+      C:/ASAP-1.9/build/buildtools/cmake_install.cmake:51
+  
+    when parsing string
+  
+      C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\lib\cmake\Qt5/../../../plugins/platforms/qwindows.dll
+  
+    Invalid escape sequence \A
+  
+    Policy CMP0010 is not set: Bad variable reference syntax is an error.  Run
+    "cmake --help-policy CMP0010" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  Call Stack (most recent call first):
+    cmake_install.cmake:77 (include)
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  -- Installing: C:\ASAP-1.9\install/bin/platforms/qwindows.dll
+  CMake Warning (dev) at buildtools/cmake_install.cmake:63 (file):
+    Syntax error in cmake code at
+  
+      C:/ASAP-1.9/build/buildtools/cmake_install.cmake:63
+  
+    when parsing string
+  
+      C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\lib\cmake\Qt5/../../../bin/libEGL.dll
+  
+    Invalid escape sequence \A
+  
+    Policy CMP0010 is not set: Bad variable reference syntax is an error.  Run
+    "cmake --help-policy CMP0010" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  Call Stack (most recent call first):
+    cmake_install.cmake:77 (include)
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  -- Installing: C:\ASAP-1.9\install/bin/libEGL.dll
+  CMake Warning (dev) at buildtools/cmake_install.cmake:74 (file):
+    Syntax error in cmake code at
+  
+      C:/ASAP-1.9/build/buildtools/cmake_install.cmake:74
+  
+    when parsing string
+  
+      C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\lib\cmake\Qt5/../../../bin/d3dcompiler_47.dll
+  
+    Invalid escape sequence \A
+  
+    Policy CMP0010 is not set: Bad variable reference syntax is an error.  Run
+    "cmake --help-policy CMP0010" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  Call Stack (most recent call first):
+    cmake_install.cmake:77 (include)
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  -- Installing: C:\ASAP-1.9\install/bin/d3dcompiler_47.dll
+  CMake Warning (dev) at buildtools/cmake_install.cmake:79 (file):
+    Syntax error in cmake code at
+  
+      C:/ASAP-1.9/build/buildtools/cmake_install.cmake:79
+  
+    when parsing string
+  
+      C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\lib\cmake\Qt5/../../../bin/Qt5OpenGL.dll
+  
+    Invalid escape sequence \A
+  
+    Policy CMP0010 is not set: Bad variable reference syntax is an error.  Run
+    "cmake --help-policy CMP0010" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  Call Stack (most recent call first):
+    cmake_install.cmake:77 (include)
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  -- Installing: C:\ASAP-1.9\install/bin/Qt5OpenGL.dll
+  CMake Warning (dev) at buildtools/cmake_install.cmake:95 (fixup_bundle):
+    Syntax error in cmake code at
+  
+      C:/ASAP-1.9/build/buildtools/cmake_install.cmake:95
+  
+    when parsing string
+  
+      C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\lib\cmake\Qt5/../../../bin;C:/ASAP-1.9/libs/opencv-4.5.1-vc14_vc15/opencv/build/x64/vc15/bin;C:\ASAP-1.9\libs\openslide-win64-20171122\openslide-win64-20171122\include\openslide/../../bin;/../bin;/../bin;C:/ASAP-1.9/libs/boost_1_67_0/lib64-msvc-14.1
+  
+    Invalid escape sequence \A
+  
+    Policy CMP0010 is not set: Bad variable reference syntax is an error.  Run
+    "cmake --help-policy CMP0010" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  Call Stack (most recent call first):
+    cmake_install.cmake:77 (include)
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  -- fixup_bundle
+  --   app='C:\ASAP-1.9\install/bin/ASAP.exe'
+  --   libs='C:\ASAP-1.9\install/bin/libEGL.dll;C:\ASAP-1.9\install/bin/Qt5OpenGL.dll;C:\ASAP-1.9\install/bin/plugins/filters/NucleiDetectionFilterPlugin.dll;C:\ASAP-1.9\install/bin/formats/openslidefileformat.dll'
+  --   dirs='C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\lib\cmake\Qt5/../../../bin;C:/ASAP-1.9/libs/opencv-4.5.1-vc14_vc15/opencv/build/x64/vc15/bin;C:\ASAP-1.9\libs\openslide-win64-20171122\openslide-win64-20171122\include\openslide/../../bin;/../bin;/../bin;C:/ASAP-1.9/libs/boost_1_67_0/lib64-msvc-14.1'
+  --   ignoreItems=''
+  -- fixup_bundle: preparing...
+  -- 
+EXEC : warning : cannot resolve item 'tiff.dll'
+  
+    possible problems:
+      need more directories?
+      need to use InstallRequiredSystemLibraries?
+      run in install tree instead of build tree?
+  
+EXEC : -- warning : gp_resolved_file_type non-absolute file 'tiff.dll' returning type 'other' -- possibly incorrect
+  -- 
+EXEC : warning : cannot resolve item 'tiff.dll'
+  
+    possible problems:
+      need more directories?
+      need to use InstallRequiredSystemLibraries?
+      run in install tree instead of build tree?
+  
+  -- 
+EXEC : warning : cannot resolve item 'openjp2.dll'
+  
+    possible problems:
+      need more directories?
+      need to use InstallRequiredSystemLibraries?
+      run in install tree instead of build tree?
+  
+EXEC : -- warning : gp_resolved_file_type non-absolute file 'openjp2.dll' returning type 'other' -- possibly incorrect
+  -- 
+EXEC : warning : cannot resolve item 'openjp2.dll'
+  
+    possible problems:
+      need more directories?
+      need to use InstallRequiredSystemLibraries?
+      run in install tree instead of build tree?
+  
+  -- 
+EXEC : warning : cannot resolve item 'openjp2.dll'
+  
+    possible problems:
+      need more directories?
+      need to use InstallRequiredSystemLibraries?
+      run in install tree instead of build tree?
+  
+  -- 
+EXEC : warning : cannot resolve item 'tiff.dll'
+  
+    possible problems:
+      need more directories?
+      need to use InstallRequiredSystemLibraries?
+      run in install tree instead of build tree?
+  
+  -- 
+EXEC : warning : cannot resolve item 'tiff.dll'
+  
+    possible problems:
+      need more directories?
+      need to use InstallRequiredSystemLibraries?
+      run in install tree instead of build tree?
+  
+EXEC : -- warning : gp_resolved_file_type non-absolute file 'tiff.dll' returning type 'other' -- possibly incorrect
+  -- 
+EXEC : warning : cannot resolve item 'tiff.dll'
+  
+    possible problems:
+      need more directories?
+      need to use InstallRequiredSystemLibraries?
+      run in install tree instead of build tree?
+  
+  -- 
+EXEC : warning : cannot resolve item 'openjp2.dll'
+  
+    possible problems:
+      need more directories?
+      need to use InstallRequiredSystemLibraries?
+      run in install tree instead of build tree?
+  
+EXEC : -- warning : gp_resolved_file_type non-absolute file 'openjp2.dll' returning type 'other' -- possibly incorrect
+  -- 
+EXEC : warning : cannot resolve item 'openjp2.dll'
+  
+    possible problems:
+      need more directories?
+      need to use InstallRequiredSystemLibraries?
+      run in install tree instead of build tree?
+  
+  -- fixup_bundle: copying...
+  -- 1/80: *NOT* copying 'C:\ASAP-1.9\install/bin/ASAP.exe'
+  -- 2/80: *NOT* copying 'C:\ASAP-1.9\install/bin/libEGL.dll'
+  -- 3/80: copying 'C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/bin/libGLESv2.dll'
+  -- 4/80: *NOT* copying 'C:\ASAP-1.9\install/bin/Qt5OpenGL.dll'
+  -- 5/80: copying 'C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/bin/Qt5Core.dll'
+  -- 6/80: copying 'C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/bin/Qt5Gui.dll'
+  -- 7/80: copying 'C:/ASAP-1.9/libs/Qt/5.14.2/msvc2017_64/bin/Qt5Widgets.dll'
+  -- 8/80: *NOT* copying 'C:\ASAP-1.9\install/bin/plugins/filters/NucleiDetectionFilterPlugin.dll'
+  -- 9/80: copying 'C:/ASAP-1.9/install/bin/CONCRT140.dll'
+EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+  -- 10/80: copying 'C:/ASAP-1.9/install/bin/FRST.dll'
+EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+  -- 11/80: copying 'C:/ASAP-1.9/install/bin/basicfilters.dll'
+EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+  -- 12/80: copying 'C:/ASAP-1.9/libs/boost_1_67_0/lib64-msvc-14.1/boost_filesystem-vc141-mt-x64-1_67.dll'
+  -- 13/80: copying 'C:/ASAP-1.9/libs/boost_1_67_0/lib64-msvc-14.1/boost_regex-vc141-mt-x64-1_67.dll'
+  -- 14/80: copying 'C:/ASAP-1.9/libs/boost_1_67_0/lib64-msvc-14.1/boost_system-vc141-mt-x64-1_67.dll'
+  -- 15/80: copying 'C:/ASAP-1.9/install/bin/core.dll'
+EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+  -- 16/80: copying 'C:/ASAP-1.9/libs/opencv-4.5.1-vc14_vc15/opencv/build/x64/vc15/bin/opencv_world451.dll'
+  -- 17/80: *NOT* copying 'C:\ASAP-1.9\install/bin/formats/openslidefileformat.dll'
+  -- 18/80: copying 'C:/ASAP-1.9/libs/openslide-win64-20171122/openslide-win64-20171122/bin/iconv.dll'
+  -- 19/80: copying 'C:/ASAP-1.9/install/bin/jpeg2kcodec.dll'
+EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+  -- 20/80: copying 'C:/ASAP-1.9/libs/openslide-win64-20171122/openslide-win64-20171122/bin/libcairo-2.dll'
+  -- 21/80: copying 'C:/ASAP-1.9/libs/openslide-win64-20171122/openslide-win64-20171122/bin/libffi-6.dll'
+  -- 22/80: copying 'C:/ASAP-1.9/libs/openslide-win64-20171122/openslide-win64-20171122/bin/libgdk_pixbuf-2.0-0.dll'
+  -- 23/80: copying 'C:/ASAP-1.9/libs/openslide-win64-20171122/openslide-win64-20171122/bin/libgio-2.0-0.dll'
+  -- 24/80: copying 'C:/ASAP-1.9/libs/openslide-win64-20171122/openslide-win64-20171122/bin/libglib-2.0-0.dll'
+  -- 25/80: copying 'C:/ASAP-1.9/libs/openslide-win64-20171122/openslide-win64-20171122/bin/libgmodule-2.0-0.dll'
+  -- 26/80: copying 'C:/ASAP-1.9/libs/openslide-win64-20171122/openslide-win64-20171122/bin/libgobject-2.0-0.dll'
+  -- 27/80: copying 'C:/ASAP-1.9/libs/openslide-win64-20171122/openslide-win64-20171122/bin/libintl-8.dll'
+  -- 28/80: copying 'C:/ASAP-1.9/libs/openslide-win64-20171122/openslide-win64-20171122/bin/libjpeg-62.dll'
+  -- 29/80: copying 'C:/ASAP-1.9/libs/openslide-win64-20171122/openslide-win64-20171122/bin/libopenjp2.dll'
+  -- 30/80: copying 'C:/ASAP-1.9/libs/openslide-win64-20171122/openslide-win64-20171122/bin/libopenslide-0.dll'
+  -- 31/80: copying 'C:/ASAP-1.9/libs/openslide-win64-20171122/openslide-win64-20171122/bin/libpixman-1-0.dll'
+  -- 32/80: copying 'C:/ASAP-1.9/libs/openslide-win64-20171122/openslide-win64-20171122/bin/libpng16-16.dll'
+  -- 33/80: copying 'C:/ASAP-1.9/libs/openslide-win64-20171122/openslide-win64-20171122/bin/libsqlite3-0.dll'
+  -- 34/80: copying 'C:/ASAP-1.9/libs/openslide-win64-20171122/openslide-win64-20171122/bin/libtiff-5.dll'
+  -- 35/80: copying 'C:/ASAP-1.9/libs/openslide-win64-20171122/openslide-win64-20171122/bin/libxml2-2.dll'
+  -- 36/80: copying 'C:/ASAP-1.9/install/bin/multiresolutionimageinterface.dll'
+EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+  -- 37/80: copying 'openjp2.dll'
+  Error copying file "openjp2.dll" to "C:/ASAP-1.9/install/bin/openjp2.dll".
+  -- 38/80: copying 'tiff.dll'
+  Error copying file "tiff.dll" to "C:/ASAP-1.9/install/bin/tiff.dll".
+  -- 39/80: copying 'C:/ASAP-1.9/libs/openslide-win64-20171122/openslide-win64-20171122/bin/zlib1.dll'
+  -- 40/80: copying 'C:/ASAP-1.9/install/bin/ASAPLib.dll'
+EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+  -- fixup_bundle: fixing...
+  -- 41/80: fix-up not required on this platform 'C:\ASAP-1.9\install/bin/ASAP.exe'
+  -- 42/80: fix-up not required on this platform 'C:\ASAP-1.9\install/bin/libEGL.dll'
+  -- 43/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/libGLESv2.dll'
+  -- 44/80: fix-up not required on this platform 'C:\ASAP-1.9\install/bin/Qt5OpenGL.dll'
+  -- 45/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/Qt5Core.dll'
+  -- 46/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/Qt5Gui.dll'
+  -- 47/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/Qt5Widgets.dll'
+  -- 48/80: fix-up not required on this platform 'C:\ASAP-1.9\install/bin/plugins/filters/NucleiDetectionFilterPlugin.dll'
+  -- 49/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/concrt140.dll'
+  -- 50/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/FRST.dll'
+  -- 51/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/basicfilters.dll'
+  -- 52/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/boost_filesystem-vc141-mt-x64-1_67.dll'
+  -- 53/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/boost_regex-vc141-mt-x64-1_67.dll'
+  -- 54/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/boost_system-vc141-mt-x64-1_67.dll'
+  -- 55/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/core.dll'
+  -- 56/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/opencv_world451.dll'
+  -- 57/80: fix-up not required on this platform 'C:\ASAP-1.9\install/bin/formats/openslidefileformat.dll'
+  -- 58/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/iconv.dll'
+  -- 59/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/jpeg2kcodec.dll'
+  -- 60/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/libcairo-2.dll'
+  -- 61/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/libffi-6.dll'
+  -- 62/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/libgdk_pixbuf-2.0-0.dll'
+  -- 63/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/libgio-2.0-0.dll'
+  -- 64/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/libglib-2.0-0.dll'
+  -- 65/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/libgmodule-2.0-0.dll'
+  -- 66/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/libgobject-2.0-0.dll'
+  -- 67/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/libintl-8.dll'
+  -- 68/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/libjpeg-62.dll'
+  -- 69/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/libopenjp2.dll'
+  -- 70/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/libopenslide-0.dll'
+  -- 71/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/libpixman-1-0.dll'
+  -- 72/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/libpng16-16.dll'
+  -- 73/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/libsqlite3-0.dll'
+  -- 74/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/libtiff-5.dll'
+  -- 75/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/libxml2-2.dll'
+  -- 76/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/multiresolutionimageinterface.dll'
+  -- 77/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/openjp2.dll'
+  -- 78/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/tiff.dll'
+  -- 79/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/zlib1.dll'
+  -- 80/80: fix-up not required on this platform 'C:/ASAP-1.9/install/bin/ASAPLib.dll'
+  -- fixup_bundle: cleaning up...
+  -- fixup_bundle: verifying...
+  -- ===========================================================================
+  -- Analyzing app='C:\ASAP-1.9\install/bin/ASAP.exe'
+  -- bundle='C:/ASAP-1.9/install/bin'
+  -- executable='C:\ASAP-1.9\install/bin/ASAP.exe'
+  -- valid='1'
+  -- executable file 1: C:/ASAP-1.9/install/bin/ASAP.exe
+  -- 
+EXEC : warning : cannot resolve item 'tiff.dll'
+  
+    possible problems:
+      need more directories?
+      need to use InstallRequiredSystemLibraries?
+      run in install tree instead of build tree?
+  
+EXEC : -- warning : gp_resolved_file_type non-absolute file 'tiff.dll' returning type 'other' -- possibly incorrect
+  -- 
+EXEC : warning : cannot resolve item 'tiff.dll'
+  
+    possible problems:
+      need more directories?
+      need to use InstallRequiredSystemLibraries?
+      run in install tree instead of build tree?
+  
+  -- 
+EXEC : warning : cannot resolve item 'openjp2.dll'
+  
+    possible problems:
+      need more directories?
+      need to use InstallRequiredSystemLibraries?
+      run in install tree instead of build tree?
+  
+EXEC : -- warning : gp_resolved_file_type non-absolute file 'openjp2.dll' returning type 'other' -- possibly incorrect
+  -- 
+EXEC : warning : cannot resolve item 'openjp2.dll'
+  
+    possible problems:
+      need more directories?
+      need to use InstallRequiredSystemLibraries?
+      run in install tree instead of build tree?
+  
+  -- 
+EXEC : warning : cannot resolve item 'openjp2.dll'
+  
+    possible problems:
+      need more directories?
+      need to use InstallRequiredSystemLibraries?
+      run in install tree instead of build tree?
+  
+EXEC : -- warning : gp_resolved_file_type non-absolute file 'openjp2.dll' returning type 'other' -- possibly incorrect
+  -- 
+EXEC : warning : cannot resolve item 'tiff.dll'
+  
+    possible problems:
+      need more directories?
+      need to use InstallRequiredSystemLibraries?
+      run in install tree instead of build tree?
+  
+EXEC : -- warning : gp_resolved_file_type non-absolute file 'tiff.dll' returning type 'other' -- possibly incorrect
+  -- verified='0'
+  -- info='external prerequisites found:
+  f='C:/ASAP-1.9/install/bin/ASAP.exe'
+  external_prereqs='openjp2.dll;tiff.dll'
+  '
+  -- 
+  CMake Error at C:/Program Files/CMake/share/cmake-3.19/Modules/BundleUtilities.cmake:1124 (message):
+EXEC : error : verify_app failed
+  Call Stack (most recent call first):
+    C:/Program Files/CMake/share/cmake-3.19/Modules/BundleUtilities.cmake:991 (verify_app)
+    buildtools/cmake_install.cmake:95 (fixup_bundle)
+    cmake_install.cmake:77 (include)
+  
+  
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(138,5): error MSB3073: The command "setlocal
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(138,5): error MSB3073: "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(138,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(138,5): error MSB3073: :cmEnd
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(138,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(138,5): error MSB3073: :cmErrorLevel
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(138,5): error MSB3073: exit /b %1
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(138,5): error MSB3073: :cmDone
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(138,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(138,5): error MSB3073: :VCEnd" exited with code 1.

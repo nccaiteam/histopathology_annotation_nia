@@ -1,0 +1,9 @@
+﻿  Automatic MOC and UIC for target VisualizationWorkstationExtensionPlugin
+  Generating qrc_VisualizationWorkstationExtensionPlugin_resources.cpp
+  Building Custom Rule C:/ASAP-1.9/src/ASAP/visualization/CMakeLists.txt
+  mocs_compilation.cpp
+  VisualizationWorkstationExtensionPlugin.cpp
+  qrc_VisualizationWorkstationExtensionPlugin_resources.cpp
+  Generating Code...
+     Creating library C:/ASAP-1.9/build/ASAP/visualization/Release/VisualizationWorkstationExtensionPlugin.lib and object C:/ASAP-1.9/build/ASAP/visualization/Release/VisualizationWorkstationExtensionPlugin.exp
+  VisualizationWorkstationExtensionPlugin.vcxproj -> C:\ASAP-1.9\build\ASAP\visualization\Release\VisualizationWorkstationExtensionPlugin.dll

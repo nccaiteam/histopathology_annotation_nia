@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/ASAP-1.9/src/ASAP/annotation/CMakeLists.txt
+C:/ASAP-1.9/src/ASAP/annotation/resources/AnnotationWorkstationExtensionPlugin_resources.qrc
+C:/Program Files/CMake/share/cmake-3.19/Modules/exportheader.cmake.in

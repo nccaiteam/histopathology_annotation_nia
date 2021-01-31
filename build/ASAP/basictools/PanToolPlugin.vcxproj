@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{656191AD-8ACB-3B4E-9C25-4F2003053B35}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>PanToolPlugin</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ASAP-1.9\build\ASAP\basictools\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PanToolPlugin.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PanToolPlugin_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ASAP-1.9\build\ASAP\basictools\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PanToolPlugin.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PanToolPlugin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ASAP-1.9\build\ASAP\basictools\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PanToolPlugin.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PanToolPlugin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ASAP-1.9\build\ASAP\basictools\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PanToolPlugin.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PanToolPlugin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\ASAP-1.9\build\ASAP\basictools\PanToolPlugin_autogen\include_Debug;C:\ASAP-1.9\src\ASAP;C:\ASAP-1.9\build\ASAP;C:\ASAP-1.9\build\imgproc\basicfilters;C:\ASAP-1.9\src;C:\ASAP-1.9\build;C:\ASAP-1.9\build\core;C:\ASAP-1.9\libs\boost_1_67_0;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtCore;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtWidgets;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtGui;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR="Debug";PanToolPlugin_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR=\"Debug\";PanToolPlugin_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\ASAP-1.9\build\ASAP\basictools\PanToolPlugin_autogen\include_Debug;C:\ASAP-1.9\src\ASAP;C:\ASAP-1.9\build\ASAP;C:\ASAP-1.9\build\imgproc\basicfilters;C:\ASAP-1.9\src;C:\ASAP-1.9\build;C:\ASAP-1.9\build\core;C:\ASAP-1.9\libs\boost_1_67_0;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtCore;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtWidgets;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtGui;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ASAP-1.9\build\ASAP\basictools\PanToolPlugin_autogen\include_Debug;C:\ASAP-1.9\src\ASAP;C:\ASAP-1.9\build\ASAP;C:\ASAP-1.9\build\imgproc\basicfilters;C:\ASAP-1.9\src;C:\ASAP-1.9\build;C:\ASAP-1.9\build\core;C:\ASAP-1.9\libs\boost_1_67_0;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtCore;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtWidgets;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtGui;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target PanToolPlugin</Message>
+      <Command>setlocal
+cd C:\ASAP-1.9\build\ASAP\basictools
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/ASAP-1.9/build/ASAP/basictools/CMakeFiles/PanToolPlugin_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\Debug\ASAPLib_d.lib;..\..\imgproc\basicfilters\Debug\basicfilters_d.lib;..\..\core\Debug\core_d.lib;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\lib\Qt5Widgetsd.lib;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\lib\Qt5Guid.lib;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\lib\Qt5Cored.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/ASAP-1.9/build/ASAP/basictools/Debug/PanToolPlugin_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/ASAP-1.9/build/ASAP/basictools/Debug/PanToolPlugin_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\ASAP-1.9\build\ASAP\basictools\PanToolPlugin_autogen\include_Release;C:\ASAP-1.9\src\ASAP;C:\ASAP-1.9\build\ASAP;C:\ASAP-1.9\build\imgproc\basicfilters;C:\ASAP-1.9\src;C:\ASAP-1.9\build;C:\ASAP-1.9\build\core;C:\ASAP-1.9\libs\boost_1_67_0;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtCore;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtWidgets;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtGui;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR="Release";PanToolPlugin_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR=\"Release\";PanToolPlugin_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\ASAP-1.9\build\ASAP\basictools\PanToolPlugin_autogen\include_Release;C:\ASAP-1.9\src\ASAP;C:\ASAP-1.9\build\ASAP;C:\ASAP-1.9\build\imgproc\basicfilters;C:\ASAP-1.9\src;C:\ASAP-1.9\build;C:\ASAP-1.9\build\core;C:\ASAP-1.9\libs\boost_1_67_0;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtCore;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtWidgets;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtGui;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ASAP-1.9\build\ASAP\basictools\PanToolPlugin_autogen\include_Release;C:\ASAP-1.9\src\ASAP;C:\ASAP-1.9\build\ASAP;C:\ASAP-1.9\build\imgproc\basicfilters;C:\ASAP-1.9\src;C:\ASAP-1.9\build;C:\ASAP-1.9\build\core;C:\ASAP-1.9\libs\boost_1_67_0;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtCore;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtWidgets;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtGui;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target PanToolPlugin</Message>
+      <Command>setlocal
+cd C:\ASAP-1.9\build\ASAP\basictools
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/ASAP-1.9/build/ASAP/basictools/CMakeFiles/PanToolPlugin_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\Release\ASAPLib.lib;..\..\imgproc\basicfilters\Release\basicfilters.lib;..\..\core\Release\core.lib;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\lib\Qt5Widgets.lib;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\lib\Qt5Gui.lib;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/ASAP-1.9/build/ASAP/basictools/Release/PanToolPlugin.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/ASAP-1.9/build/ASAP/basictools/Release/PanToolPlugin.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\ASAP-1.9\build\ASAP\basictools\PanToolPlugin_autogen\include_MinSizeRel;C:\ASAP-1.9\src\ASAP;C:\ASAP-1.9\build\ASAP;C:\ASAP-1.9\build\imgproc\basicfilters;C:\ASAP-1.9\src;C:\ASAP-1.9\build;C:\ASAP-1.9\build\core;C:\ASAP-1.9\libs\boost_1_67_0;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtCore;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtWidgets;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtGui;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR="MinSizeRel";PanToolPlugin_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR=\"MinSizeRel\";PanToolPlugin_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\ASAP-1.9\build\ASAP\basictools\PanToolPlugin_autogen\include_MinSizeRel;C:\ASAP-1.9\src\ASAP;C:\ASAP-1.9\build\ASAP;C:\ASAP-1.9\build\imgproc\basicfilters;C:\ASAP-1.9\src;C:\ASAP-1.9\build;C:\ASAP-1.9\build\core;C:\ASAP-1.9\libs\boost_1_67_0;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtCore;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtWidgets;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtGui;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ASAP-1.9\build\ASAP\basictools\PanToolPlugin_autogen\include_MinSizeRel;C:\ASAP-1.9\src\ASAP;C:\ASAP-1.9\build\ASAP;C:\ASAP-1.9\build\imgproc\basicfilters;C:\ASAP-1.9\src;C:\ASAP-1.9\build;C:\ASAP-1.9\build\core;C:\ASAP-1.9\libs\boost_1_67_0;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtCore;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtWidgets;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtGui;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target PanToolPlugin</Message>
+      <Command>setlocal
+cd C:\ASAP-1.9\build\ASAP\basictools
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/ASAP-1.9/build/ASAP/basictools/CMakeFiles/PanToolPlugin_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\MinSizeRel\ASAPLib.lib;..\..\imgproc\basicfilters\MinSizeRel\basicfilters.lib;..\..\core\MinSizeRel\core.lib;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\lib\Qt5Widgets.lib;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\lib\Qt5Gui.lib;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/ASAP-1.9/build/ASAP/basictools/MinSizeRel/PanToolPlugin.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/ASAP-1.9/build/ASAP/basictools/MinSizeRel/PanToolPlugin.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\ASAP-1.9\build\ASAP\basictools\PanToolPlugin_autogen\include_RelWithDebInfo;C:\ASAP-1.9\src\ASAP;C:\ASAP-1.9\build\ASAP;C:\ASAP-1.9\build\imgproc\basicfilters;C:\ASAP-1.9\src;C:\ASAP-1.9\build;C:\ASAP-1.9\build\core;C:\ASAP-1.9\libs\boost_1_67_0;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtCore;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtWidgets;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtGui;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR="RelWithDebInfo";PanToolPlugin_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";PanToolPlugin_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\ASAP-1.9\build\ASAP\basictools\PanToolPlugin_autogen\include_RelWithDebInfo;C:\ASAP-1.9\src\ASAP;C:\ASAP-1.9\build\ASAP;C:\ASAP-1.9\build\imgproc\basicfilters;C:\ASAP-1.9\src;C:\ASAP-1.9\build;C:\ASAP-1.9\build\core;C:\ASAP-1.9\libs\boost_1_67_0;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtCore;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtWidgets;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtGui;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ASAP-1.9\build\ASAP\basictools\PanToolPlugin_autogen\include_RelWithDebInfo;C:\ASAP-1.9\src\ASAP;C:\ASAP-1.9\build\ASAP;C:\ASAP-1.9\build\imgproc\basicfilters;C:\ASAP-1.9\src;C:\ASAP-1.9\build;C:\ASAP-1.9\build\core;C:\ASAP-1.9\libs\boost_1_67_0;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtCore;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtWidgets;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtGui;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target PanToolPlugin</Message>
+      <Command>setlocal
+cd C:\ASAP-1.9\build\ASAP\basictools
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/ASAP-1.9/build/ASAP/basictools/CMakeFiles/PanToolPlugin_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\RelWithDebInfo\ASAPLib.lib;..\..\imgproc\basicfilters\RelWithDebInfo\basicfilters.lib;..\..\core\RelWithDebInfo\core.lib;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\lib\Qt5Widgets.lib;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\lib\Qt5Gui.lib;C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/ASAP-1.9/build/ASAP/basictools/RelWithDebInfo/PanToolPlugin.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/ASAP-1.9/build/ASAP/basictools/RelWithDebInfo/PanToolPlugin.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ASAP-1.9\src\ASAP\basictools\resources\basictools_resources.qrc">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qrc_basictools_resources.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\bin\rcc.exe --name basictools_resources --output C:/ASAP-1.9/build/ASAP/basictools/qrc_basictools_resources.cpp C:/ASAP-1.9/src/ASAP/basictools/resources/basictools_resources.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ASAP-1.9\src\ASAP\basictools\resources\zoom.png;C:\ASAP-1.9\src\ASAP\basictools\resources\pan.png;C:\ASAP-1.9\build\ASAP\basictools\resources\basictools_resources.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ASAP-1.9\build\ASAP\basictools\qrc_basictools_resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qrc_basictools_resources.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\bin\rcc.exe --name basictools_resources --output C:/ASAP-1.9/build/ASAP/basictools/qrc_basictools_resources.cpp C:/ASAP-1.9/src/ASAP/basictools/resources/basictools_resources.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ASAP-1.9\src\ASAP\basictools\resources\zoom.png;C:\ASAP-1.9\src\ASAP\basictools\resources\pan.png;C:\ASAP-1.9\build\ASAP\basictools\resources\basictools_resources.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ASAP-1.9\build\ASAP\basictools\qrc_basictools_resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qrc_basictools_resources.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\bin\rcc.exe --name basictools_resources --output C:/ASAP-1.9/build/ASAP/basictools/qrc_basictools_resources.cpp C:/ASAP-1.9/src/ASAP/basictools/resources/basictools_resources.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ASAP-1.9\src\ASAP\basictools\resources\zoom.png;C:\ASAP-1.9\src\ASAP\basictools\resources\pan.png;C:\ASAP-1.9\build\ASAP\basictools\resources\basictools_resources.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ASAP-1.9\build\ASAP\basictools\qrc_basictools_resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qrc_basictools_resources.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\ASAP-1.9\libs\Qt\5.14.2\msvc2017_64\bin\rcc.exe --name basictools_resources --output C:/ASAP-1.9/build/ASAP/basictools/qrc_basictools_resources.cpp C:/ASAP-1.9/src/ASAP/basictools/resources/basictools_resources.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ASAP-1.9\src\ASAP\basictools\resources\zoom.png;C:\ASAP-1.9\src\ASAP\basictools\resources\pan.png;C:\ASAP-1.9\build\ASAP\basictools\resources\basictools_resources.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ASAP-1.9\build\ASAP\basictools\qrc_basictools_resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ASAP-1.9\src\ASAP\basictools\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/ASAP-1.9/src/ASAP/basictools/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/ASAP-1.9/src -BC:/ASAP-1.9/build --check-stamp-file C:/ASAP-1.9/build/ASAP/basictools/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ASAP-1.9\src\ASAP\basictools\resources\basictools_resources.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ASAP-1.9\build\ASAP\basictools\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/ASAP-1.9/src/ASAP/basictools/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/ASAP-1.9/src -BC:/ASAP-1.9/build --check-stamp-file C:/ASAP-1.9/build/ASAP/basictools/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ASAP-1.9\src\ASAP\basictools\resources\basictools_resources.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ASAP-1.9\build\ASAP\basictools\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/ASAP-1.9/src/ASAP/basictools/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/ASAP-1.9/src -BC:/ASAP-1.9/build --check-stamp-file C:/ASAP-1.9/build/ASAP/basictools/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ASAP-1.9\src\ASAP\basictools\resources\basictools_resources.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ASAP-1.9\build\ASAP\basictools\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/ASAP-1.9/src/ASAP/basictools/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/ASAP-1.9/src -BC:/ASAP-1.9/build --check-stamp-file C:/ASAP-1.9/build/ASAP/basictools/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ASAP-1.9\src\ASAP\basictools\resources\basictools_resources.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ASAP-1.9\build\ASAP\basictools\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\ASAP-1.9\build\ASAP\basictools\PanToolPlugin_autogen\mocs_compilation.cpp" />
+    <ClInclude Include="C:\ASAP-1.9\src\ASAP\basictools\PanTool.h" />
+    <ClCompile Include="C:\ASAP-1.9\src\ASAP\basictools\PanTool.cpp" />
+    <ClCompile Include="C:\ASAP-1.9\build\ASAP\basictools\qrc_basictools_resources.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\ASAP-1.9\build\ZERO_CHECK.vcxproj">
+      <Project>{3D1E6213-A215-3B1B-A387-200188ABF2E5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\ASAP-1.9\build\ASAP\ASAPLib.vcxproj">
+      <Project>{D7BC1702-B362-3E90-8902-9FEC058919BF}</Project>
+      <Name>ASAPLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ASAP-1.9\build\imgproc\basicfilters\basicfilters.vcxproj">
+      <Project>{B3B72727-E430-3A03-AE55-C11E2E80E08D}</Project>
+      <Name>basicfilters</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ASAP-1.9\build\core\core.vcxproj">
+      <Project>{386385BC-03DC-3602-AF64-399F76F5F1F2}</Project>
+      <Name>core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

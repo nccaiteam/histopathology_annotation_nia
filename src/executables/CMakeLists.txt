@@ -1,0 +1,13 @@
+add_subdirectory(MultiResImageConverter)
+add_subdirectory(WSIConnectedComponents)
+add_subdirectory(WSIDistanceTransform)
+add_subdirectory(WSILabelStatistics)
+add_subdirectory(WSIThreshold)
+add_subdirectory(WSIArithmetic)
+
+if(BUILD_TESTS)
+  find_package(UNITTEST REQUIRED)
+  add_library(UNITTEST SHARED IMPORTED)
+  set_property(TARGET UNITTEST PROPERTY IMPORTED_IMPLIB ${UNITTEST_LIBRARY})
+  add_subdirectory(TestRunner)
+endif(BUILD_TESTS)

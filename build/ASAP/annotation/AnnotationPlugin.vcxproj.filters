@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\ASAP-1.9\build\ASAP\annotation\AnnotationPlugin_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ASAP-1.9\src\ASAP\annotation\AnnotationTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ASAP-1.9\src\ASAP\annotation\AnnotationWorkstationExtensionPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ASAP-1.9\src\ASAP\annotation\MeasurementAnnotationTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ASAP-1.9\src\ASAP\annotation\RectangleAnnotationTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ASAP-1.9\src\ASAP\annotation\DotAnnotationTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ASAP-1.9\src\ASAP\annotation\PolyAnnotationTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ASAP-1.9\src\ASAP\annotation\PointSetAnnotationTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ASAP-1.9\src\ASAP\annotation\SplineAnnotationTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ASAP-1.9\src\ASAP\annotation\QtAnnotation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ASAP-1.9\src\ASAP\annotation\QtAnnotationGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ASAP-1.9\src\ASAP\annotation\PolyQtAnnotation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ASAP-1.9\src\ASAP\annotation\MeasurementQtAnnotation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ASAP-1.9\src\ASAP\annotation\PointSetQtAnnotation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ASAP-1.9\src\ASAP\annotation\DotQtAnnotation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ASAP-1.9\build\ASAP\annotation\qrc_AnnotationWorkstationExtensionPlugin_resources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\ASAP-1.9\src\ASAP\annotation\AnnotationWorkstationExtensionPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ASAP-1.9\src\ASAP\annotation\AnnotationTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ASAP-1.9\src\ASAP\annotation\DotAnnotationTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ASAP-1.9\src\ASAP\annotation\PolyAnnotationTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ASAP-1.9\src\ASAP\annotation\MeasurementAnnotationTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ASAP-1.9\src\ASAP\annotation\RectangleAnnotationTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ASAP-1.9\src\ASAP\annotation\PointSetAnnotationTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ASAP-1.9\src\ASAP\annotation\SplineAnnotationTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ASAP-1.9\src\ASAP\annotation\QtAnnotation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ASAP-1.9\src\ASAP\annotation\QtAnnotationGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ASAP-1.9\src\ASAP\annotation\MeasurementQtAnnotation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ASAP-1.9\src\ASAP\annotation\PolyQtAnnotation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ASAP-1.9\src\ASAP\annotation\PointSetQtAnnotation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ASAP-1.9\src\ASAP\annotation\DotQtAnnotation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ASAP-1.9\src\ASAP\annotation\resources\AnnotationWorkstationExtensionPlugin_resources.qrc" />
+    <CustomBuild Include="C:\ASAP-1.9\src\ASAP\annotation\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ADD6ADFA-E1AA-3190-9A84-3439BC31DC5B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C549E125-9D34-30C2-8453-0B4FDE635E38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+﻿  Automatic MOC and UIC for target ColorDeconvolutionFilterPlugin
+  Generating qrc_ColorDeconvolutionFilterPlugin.cpp
+  Building Custom Rule C:/ASAP-1.9/src/ASAP/filters/CMakeLists.txt
+  mocs_compilation.cpp
+  ColorDeconvolutionFilterPlugin.cpp
+c:\asap-1.9\src\core\Patch.hpp(243): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  c:\asap-1.9\src\core\Patch.hpp(239): note: while compiling class template member function 'void Patch<double>::calculateStrides(void)'
+  c:\asap-1.9\src\core\Patch.hpp(185): note: see reference to function template instantiation 'void Patch<double>::calculateStrides(void)' being compiled
+  c:\asap-1.9\src\core\Patch.hpp(157): note: while compiling class template member function 'Patch<double>::Patch(const std::vector<unsigned __int64,std::allocator<_Ty>> &,const pathology::ColorType &,T *,bool,std::vector<double,std::allocator<double>>,std::vector<double,std::allocator<double>>)'
+          with
+          [
+              _Ty=unsigned __int64,
+              T=double
+          ]
+  c:\asap-1.9\src\imgproc\basicfilters\ImageFilter.h(51): note: see reference to function template instantiation 'Patch<double>::Patch(const std::vector<unsigned __int64,std::allocator<_Ty>> &,const pathology::ColorType &,T *,bool,std::vector<double,std::allocator<double>>,std::vector<double,std::allocator<double>>)' being compiled
+          with
+          [
+              _Ty=unsigned __int64,
+              T=double
+          ]
+  c:\asap-1.9\src\core\Patch.hpp(29): note: see reference to class template instantiation 'Patch<double>' being compiled
+  qrc_ColorDeconvolutionFilterPlugin.cpp
+  Generating Code...
+     Creating library C:/ASAP-1.9/build/ASAP/filters/Release/ColorDeconvolutionFilterPlugin.lib and object C:/ASAP-1.9/build/ASAP/filters/Release/ColorDeconvolutionFilterPlugin.exp
+  ColorDeconvolutionFilterPlugin.vcxproj -> C:\ASAP-1.9\build\ASAP\filters\Release\ColorDeconvolutionFilterPlugin.dll

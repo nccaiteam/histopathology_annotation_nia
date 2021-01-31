@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/ASAP-1.9/src/ASAP/filters/CMakeLists.txt
+C:/ASAP-1.9/src/ASAP/filters/resources/ColorDeconvolutionFilterPlugin.qrc
+C:/ASAP-1.9/src/ASAP/filters/resources/FilterWorkstationExtensionPlugin_resources.qrc
+C:/ASAP-1.9/src/ASAP/filters/resources/NucleiDetectionFilterPlugin.qrc

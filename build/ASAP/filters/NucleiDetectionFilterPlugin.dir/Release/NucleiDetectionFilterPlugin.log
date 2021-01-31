@@ -1,0 +1,44 @@
+﻿  Automatic MOC and UIC for target NucleiDetectionFilterPlugin
+  Generating qrc_NucleiDetectionFilterPlugin.cpp
+  Building Custom Rule C:/ASAP-1.9/src/ASAP/filters/CMakeLists.txt
+  mocs_compilation.cpp
+  NucleiDetectionFilterPlugin.cpp
+C:\ASAP-1.9\src\imgproc/opencv/NucleiDetectionFilter.h(186): warning C4305: 'initializing': truncation from 'double' to 'float'
+  C:\ASAP-1.9\src\imgproc/opencv/NucleiDetectionFilter.h(175): note: while compiling class template member function 'NucleiDetectionFilter<double>::NucleiDetectionFilter(void)'
+  C:\ASAP-1.9\src\ASAP\filters\NucleiDetectionFilterPlugin.cpp(32): note: see reference to function template instantiation 'NucleiDetectionFilter<double>::NucleiDetectionFilter(void)' being compiled
+  C:\ASAP-1.9\src\ASAP\filters\NucleiDetectionFilterPlugin.cpp(32): note: see reference to class template instantiation 'NucleiDetectionFilter<double>' being compiled
+C:\ASAP-1.9\src\imgproc/opencv/NucleiDetectionFilter.h(168): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  C:\ASAP-1.9\src\imgproc/opencv/NucleiDetectionFilter.h(102): note: while compiling class template member function 'bool NucleiDetectionFilter<double>::calculate(const Patch<double> &,std::vector<Point,std::allocator<_Ty>> &)'
+          with
+          [
+              _Ty=Point
+          ]
+  C:\ASAP-1.9\src\imgproc/opencv/NucleiDetectionFilter.h(266): note: see reference to function template instantiation 'bool NucleiDetectionFilter<double>::calculate(const Patch<double> &,std::vector<Point,std::allocator<_Ty>> &)' being compiled
+          with
+          [
+              _Ty=Point
+          ]
+C:\ASAP-1.9\src\imgproc/opencv/NucleiDetectionFilter.h(35): warning C4018: '<': signed/unsigned mismatch
+  C:\ASAP-1.9\src\imgproc/opencv/NucleiDetectionFilter.h(27): note: while compiling class template member function 'cv::Mat NucleiDetectionFilter<double>::hybridReconstruct(const cv::Mat &,const cv::Mat &)'
+  C:\ASAP-1.9\src\imgproc/opencv/NucleiDetectionFilter.h(147): note: see reference to function template instantiation 'cv::Mat NucleiDetectionFilter<double>::hybridReconstruct(const cv::Mat &,const cv::Mat &)' being compiled
+C:\ASAP-1.9\src\imgproc/opencv/NucleiDetectionFilter.h(36): warning C4018: '<': signed/unsigned mismatch
+c:\asap-1.9\src\core\Patch.hpp(243): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  c:\asap-1.9\src\core\Patch.hpp(239): note: while compiling class template member function 'void Patch<double>::calculateStrides(void)'
+  c:\asap-1.9\src\core\Patch.hpp(185): note: see reference to function template instantiation 'void Patch<double>::calculateStrides(void)' being compiled
+  c:\asap-1.9\src\core\Patch.hpp(157): note: while compiling class template member function 'Patch<double>::Patch(const std::vector<unsigned __int64,std::allocator<_Ty>> &,const pathology::ColorType &,T *,bool,std::vector<double,std::allocator<double>>,std::vector<double,std::allocator<double>>)'
+          with
+          [
+              _Ty=unsigned __int64,
+              T=double
+          ]
+  c:\asap-1.9\src\imgproc\basicfilters\ImageFilter.h(51): note: see reference to function template instantiation 'Patch<double>::Patch(const std::vector<unsigned __int64,std::allocator<_Ty>> &,const pathology::ColorType &,T *,bool,std::vector<double,std::allocator<double>>,std::vector<double,std::allocator<double>>)' being compiled
+          with
+          [
+              _Ty=unsigned __int64,
+              T=double
+          ]
+  c:\asap-1.9\src\core\Patch.hpp(29): note: see reference to class template instantiation 'Patch<double>' being compiled
+  qrc_NucleiDetectionFilterPlugin.cpp
+  Generating Code...
+     Creating library C:/ASAP-1.9/build/ASAP/filters/Release/NucleiDetectionFilterPlugin.lib and object C:/ASAP-1.9/build/ASAP/filters/Release/NucleiDetectionFilterPlugin.exp
+  NucleiDetectionFilterPlugin.vcxproj -> C:\ASAP-1.9\build\ASAP\filters\Release\NucleiDetectionFilterPlugin.dll

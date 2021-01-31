@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/ASAP-1.9/src/multiresolutionimageinterface/CMakeLists.txt
+  JPEG2000Codec.cpp
+     Creating library C:/ASAP-1.9/build/multiresolutionimageinterface/Release/jpeg2kcodec.lib and object C:/ASAP-1.9/build/multiresolutionimageinterface/Release/jpeg2kcodec.exp
+  jpeg2kcodec.vcxproj -> C:\ASAP-1.9\build\multiresolutionimageinterface\Release\jpeg2kcodec.dll

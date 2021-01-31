@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\ASAP-1.9\build\ASAP\basictools\PanToolPlugin_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ASAP-1.9\src\ASAP\basictools\PanTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ASAP-1.9\build\ASAP\basictools\qrc_basictools_resources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\ASAP-1.9\src\ASAP\basictools\PanTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ASAP-1.9\src\ASAP\basictools\resources\basictools_resources.qrc" />
+    <CustomBuild Include="C:\ASAP-1.9\src\ASAP\basictools\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ADD6ADFA-E1AA-3190-9A84-3439BC31DC5B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C549E125-9D34-30C2-8453-0B4FDE635E38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

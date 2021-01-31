@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\ASAP-1.9\src\imgproc\wholeslide\ConnectedComponentsWholeSlideFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ASAP-1.9\src\imgproc\wholeslide\DistanceTransformWholeSlideFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ASAP-1.9\src\imgproc\wholeslide\LabelStatisticsWholeSlideFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ASAP-1.9\src\imgproc\wholeslide\ThresholdWholeSlideFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ASAP-1.9\src\imgproc\wholeslide\ArithmeticWholeSlideFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ASAP-1.9\src\imgproc\wholeslide\NucleiDetectionWholeSlideFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\ASAP-1.9\src\imgproc\wholeslide\ConnectedComponentsWholeSlideFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ASAP-1.9\src\imgproc\wholeslide\DistanceTransformWholeSlideFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ASAP-1.9\src\imgproc\wholeslide\LabelStatisticsWholeSlideFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ASAP-1.9\src\imgproc\wholeslide\ThresholdWholeSlideFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ASAP-1.9\src\imgproc\wholeslide\ArithmeticWholeSlideFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ASAP-1.9\src\imgproc\wholeslide\NucleiDetectionWholeSlideFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ASAP-1.9\src\imgproc\wholeslide\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ADD6ADFA-E1AA-3190-9A84-3439BC31DC5B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C549E125-9D34-30C2-8453-0B4FDE635E38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

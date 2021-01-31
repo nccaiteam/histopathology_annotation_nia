@@ -1,0 +1,9 @@
+﻿  Automatic MOC and UIC for target PanToolPlugin
+  Generating qrc_basictools_resources.cpp
+  Building Custom Rule C:/ASAP-1.9/src/ASAP/basictools/CMakeLists.txt
+  mocs_compilation.cpp
+  PanTool.cpp
+  qrc_basictools_resources.cpp
+  Generating Code...
+     Creating library C:/ASAP-1.9/build/ASAP/basictools/Release/PanToolPlugin.lib and object C:/ASAP-1.9/build/ASAP/basictools/Release/PanToolPlugin.exp
+  PanToolPlugin.vcxproj -> C:\ASAP-1.9\build\ASAP\basictools\Release\PanToolPlugin.dll

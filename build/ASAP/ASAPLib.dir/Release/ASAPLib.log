@@ -1,0 +1,28 @@
+﻿  Automatic MOC and UIC for target ASAPLib
+EXEC : AutoGen warning : "SRC:/ASAP/UtilityFunctions.cpp" is empty.
+  
+  Generating qrc_ASAP_resources.cpp
+  Building Custom Rule C:/ASAP-1.9/src/ASAP/CMakeLists.txt
+  mocs_compilation.cpp
+  ASAP.cpp
+  PathologyViewer.cpp
+C:\ASAP-1.9\src\ASAP\PathologyViewer.cpp(630): warning C4305: '=': truncation from 'double' to 'float'
+C:\ASAP-1.9\src\ASAP\PathologyViewer.cpp(644): warning C4305: '=': truncation from 'double' to 'float'
+  WSITileGraphicsItemCache.cpp
+  MiniMap.cpp
+  RenderThread.cpp
+C:\ASAP-1.9\src\ASAP\RenderThread.cpp(17): warning C4018: '<': signed/unsigned mismatch
+C:\ASAP-1.9\src\ASAP\RenderThread.cpp(138): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  RenderWorker.cpp
+  PrefetchThread.cpp
+  TileManager.cpp
+C:\ASAP-1.9\src\ASAP\TileManager.cpp(24): warning C4018: '<': signed/unsigned mismatch
+  WSITileGraphicsItem.cpp
+  ScaleBar.cpp
+  UtilityFunctions.cpp
+  QtProgressMonitor.cpp
+  qrc_ASAP_resources.cpp
+  Generating Code...
+c:\asap-1.9\src\asap\asap.cpp(286): warning C4715: 'ASAP::getCacheSize': not all control paths return a value
+     Creating library C:/ASAP-1.9/build/ASAP/Release/ASAPLib.lib and object C:/ASAP-1.9/build/ASAP/Release/ASAPLib.exp
+  ASAPLib.vcxproj -> C:\ASAP-1.9\build\ASAP\Release\ASAPLib.dll

@@ -1,0 +1,121 @@
+﻿  Building Custom Rule C:/ASAP-1.9/src/multiresolutionimageinterface/CMakeLists.txt
+  MultiResolutionImageReader.cpp
+  MultiResolutionImageWriter.cpp
+C:\ASAP-1.9\src\multiresolutionimageinterface\MultiResolutionImageWriter.cpp(102): warning C4244: '+=': conversion from '_Rep' to 'unsigned int', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+C:\ASAP-1.9\src\multiresolutionimageinterface\MultiResolutionImageWriter.cpp(148): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+C:\ASAP-1.9\src\multiresolutionimageinterface\MultiResolutionImageWriter.cpp(175): warning C4244: 'argument': conversion from 'const unsigned __int64' to 'uint32', possible loss of data
+C:\ASAP-1.9\src\multiresolutionimageinterface\MultiResolutionImageWriter.cpp(254): warning C4244: '+=': conversion from '_Rep' to 'unsigned int', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+C:\ASAP-1.9\src\multiresolutionimageinterface\MultiResolutionImageWriter.cpp(281): warning C4244: 'argument': conversion from 'float' to 'const unsigned int', possible loss of data
+C:\ASAP-1.9\src\multiresolutionimageinterface\MultiResolutionImageWriter.cpp(283): warning C4244: '+=': conversion from '_Rep' to 'unsigned int', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+C:\ASAP-1.9\src\multiresolutionimageinterface\MultiResolutionImageWriter.cpp(287): warning C4244: '+=': conversion from '_Rep' to 'unsigned int', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+C:\ASAP-1.9\src\multiresolutionimageinterface\MultiResolutionImageWriter.cpp(304): warning C4244: '+=': conversion from '_Rep' to 'unsigned int', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+C:\ASAP-1.9\src\multiresolutionimageinterface\MultiResolutionImageWriter.cpp(339): warning C4244: '+=': conversion from '_Rep' to 'unsigned int', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+C:\ASAP-1.9\src\multiresolutionimageinterface\MultiResolutionImageWriter.cpp(409): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+  C:\ASAP-1.9\src\multiresolutionimageinterface\MultiResolutionImageWriter.cpp(323): note: see reference to function template instantiation 'int MultiResolutionImageWriter::writePyramidToDisk<unsigned int>(void)' being compiled
+C:\ASAP-1.9\src\multiresolutionimageinterface\MultiResolutionImageWriter.cpp(448): warning C4244: 'initializing': conversion from 'tmsize_t' to 'int', possible loss of data
+C:\ASAP-1.9\src\multiresolutionimageinterface\MultiResolutionImageWriter.cpp(459): warning C4244: 'initializing': conversion from 'tmsize_t' to 'int', possible loss of data
+C:\ASAP-1.9\src\multiresolutionimageinterface\MultiResolutionImageWriter.cpp(471): warning C4244: 'initializing': conversion from 'tmsize_t' to 'int', possible loss of data
+C:\ASAP-1.9\src\multiresolutionimageinterface\MultiResolutionImageWriter.cpp(483): warning C4244: 'initializing': conversion from 'tmsize_t' to 'int', possible loss of data
+C:\ASAP-1.9\src\multiresolutionimageinterface\MultiResolutionImageWriter.cpp(596): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+  C:\ASAP-1.9\src\multiresolutionimageinterface\MultiResolutionImageWriter.cpp(324): note: see reference to function template instantiation 'int MultiResolutionImageWriter::incorporatePyramid<unsigned int>(void)' being compiled
+C:\ASAP-1.9\src\multiresolutionimageinterface\MultiResolutionImageWriter.cpp(697): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+  C:\ASAP-1.9\src\multiresolutionimageinterface\MultiResolutionImageWriter.cpp(530): note: see reference to function template instantiation 'T *MultiResolutionImageWriter::downscaleTile<T>(T *,unsigned int,unsigned int)' being compiled
+          with
+          [
+              T=unsigned int
+          ]
+  C:\ASAP-1.9\src\multiresolutionimageinterface\MultiResolutionImageWriter.cpp(323): note: see reference to function template instantiation 'int MultiResolutionImageWriter::writePyramidToDisk<unsigned int>(void)' being compiled
+C:\ASAP-1.9\src\multiresolutionimageinterface\MultiResolutionImageWriter.cpp(698): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+C:\ASAP-1.9\src\multiresolutionimageinterface\MultiResolutionImageWriter.cpp(708): warning C4244: '+=': conversion from '_Rep' to 'unsigned int', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xutility(2949): warning C4244: '=': conversion from 'const _Ty' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty=float
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xutility(2972): note: see reference to function template instantiation '_OutIt *std::_Fill_n_unchecked2<_Ty*,unsigned int,int>(_OutIt,_Diff,const int &,std::false_type)' being compiled
+          with
+          [
+              _OutIt=float *,
+              _Ty=float,
+              _Diff=unsigned int
+          ]
+  C:\ASAP-1.9\src\multiresolutionimageinterface\MultiResolutionImageWriter.cpp(453): note: see reference to function template instantiation '_OutIt *std::fill_n<T*,unsigned int,int>(_OutIt,_Diff,const _Ty &)' being compiled
+          with
+          [
+              _OutIt=float *,
+              T=float,
+              _Diff=unsigned int,
+              _Ty=int
+          ]
+  AperioSVSWriter.cpp
+C:\ASAP-1.9\src\multiresolutionimageinterface\AperioSVSWriter.cpp(81): warning C4244: 'initializing': conversion from 'tmsize_t' to 'unsigned int', possible loss of data
+  C:\ASAP-1.9\src\multiresolutionimageinterface\AperioSVSWriter.cpp(15): note: see reference to function template instantiation 'void AperioSVSWriter::writeThumbnail<unsigned int>(void)' being compiled
+  TIFFImage.cpp
+C:\ASAP-1.9\src\multiresolutionimageinterface\TIFFImage.cpp(336): warning C4101: 'xfloatp': unreferenced local variable
+  MultiResolutionImage.cpp
+  MultiResolutionImageFactory.cpp
+  TIFFImageFactory.cpp
+  TileCache.cpp
+  LIFImage.cpp
+C:\ASAP-1.9\src\multiresolutionimageinterface\LIFImage.cpp(399): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  LIFImageFactory.cpp
+  VSIImage.cpp
+C:\ASAP-1.9\src\multiresolutionimageinterface\VSIImage.cpp(265): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'int', possible loss of data
+C:\ASAP-1.9\src\multiresolutionimageinterface\VSIImage.cpp(273): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'int', possible loss of data
+C:\ASAP-1.9\src\multiresolutionimageinterface\VSIImage.cpp(289): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+C:\ASAP-1.9\src\multiresolutionimageinterface\VSIImage.cpp(300): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+C:\ASAP-1.9\src\multiresolutionimageinterface\VSIImage.cpp(303): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+C:\ASAP-1.9\src\multiresolutionimageinterface\VSIImage.cpp(314): warning C4244: '+=': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+  VSIImageFactory.cpp
+  Generating Code...
+     Creating library C:/ASAP-1.9/build/multiresolutionimageinterface/Release/multiresolutionimageinterface.lib and object C:/ASAP-1.9/build/multiresolutionimageinterface/Release/multiresolutionimageinterface.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  multiresolutionimageinterface.vcxproj -> C:\ASAP-1.9\build\multiresolutionimageinterface\Release\multiresolutionimageinterface.dll

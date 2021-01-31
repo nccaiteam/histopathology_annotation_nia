@@ -1,0 +1,16 @@
+﻿  Building Custom Rule C:/ASAP-1.9/src/annotation/CMakeLists.txt
+  Annotation.cpp
+C:\ASAP-1.9\src\annotation\Annotation.cpp(47): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\ASAP-1.9\src\annotation\Annotation.cpp(60): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+  AnnotationBase.cpp
+  AnnotationGroup.cpp
+  AnnotationToMask.cpp
+  AnnotationList.cpp
+  AnnotationService.cpp
+  XmlRepository.cpp
+  NDPARepository.cpp
+  ImageScopeRepository.cpp
+  Repository.cpp
+  Generating Code...
+     Creating library C:/ASAP-1.9/build/annotation/Release/annotation.lib and object C:/ASAP-1.9/build/annotation/Release/annotation.exp
+  annotation.vcxproj -> C:\ASAP-1.9\build\annotation\Release\annotation.dll

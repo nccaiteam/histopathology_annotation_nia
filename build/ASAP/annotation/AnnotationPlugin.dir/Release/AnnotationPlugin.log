@@ -1,0 +1,23 @@
+﻿  Automatic MOC and UIC for target AnnotationPlugin
+  Generating qrc_AnnotationWorkstationExtensionPlugin_resources.cpp
+  Building Custom Rule C:/ASAP-1.9/src/ASAP/annotation/CMakeLists.txt
+  mocs_compilation.cpp
+  AnnotationTool.cpp
+C:\ASAP-1.9\src\ASAP\annotation\AnnotationTool.cpp(100): warning C4267: 'argument': conversion from 'size_t' to 'const unsigned int', possible loss of data
+  AnnotationWorkstationExtensionPlugin.cpp
+  MeasurementAnnotationTool.cpp
+  RectangleAnnotationTool.cpp
+  DotAnnotationTool.cpp
+  PolyAnnotationTool.cpp
+  PointSetAnnotationTool.cpp
+  SplineAnnotationTool.cpp
+  QtAnnotation.cpp
+  QtAnnotationGroup.cpp
+  PolyQtAnnotation.cpp
+  MeasurementQtAnnotation.cpp
+  PointSetQtAnnotation.cpp
+  DotQtAnnotation.cpp
+  qrc_AnnotationWorkstationExtensionPlugin_resources.cpp
+  Generating Code...
+     Creating library C:/ASAP-1.9/build/ASAP/annotation/Release/AnnotationPlugin.lib and object C:/ASAP-1.9/build/ASAP/annotation/Release/AnnotationPlugin.exp
+  AnnotationPlugin.vcxproj -> C:\ASAP-1.9\build\ASAP\annotation\Release\AnnotationPlugin.dll

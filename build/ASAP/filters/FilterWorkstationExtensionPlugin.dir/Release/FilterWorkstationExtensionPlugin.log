@@ -1,0 +1,38 @@
+﻿  Automatic MOC and UIC for target FilterWorkstationExtensionPlugin
+  Generating qrc_FilterWorkstationExtensionPlugin_resources.cpp
+  Building Custom Rule C:/ASAP-1.9/src/ASAP/filters/CMakeLists.txt
+  mocs_compilation.cpp
+  FilterWorkstationExtensionPlugin.cpp
+  FilterThread.cpp
+C:\ASAP-1.9\src\multiresolutionimageinterface/MultiResolutionImage.h(82): warning C4018: '<': signed/unsigned mismatch
+  C:\ASAP-1.9\src\ASAP\filters\FilterThread.cpp(112): note: see reference to function template instantiation 'Patch<double> MultiResolutionImage::getPatch<double>(const __int64 &,const __int64 &,const unsigned __int64 &,const unsigned __int64 &,const unsigned int &)' being compiled
+C:\ASAP-1.9\src\multiresolutionimageinterface/MultiResolutionImage.h(97): warning C4018: '>=': signed/unsigned mismatch
+  C:\ASAP-1.9\src\multiresolutionimageinterface/MultiResolutionImage.h(75): note: see reference to function template instantiation 'void MultiResolutionImage::getRawRegion<T>(const __int64 &,const __int64 &,const unsigned __int64 &,const unsigned __int64 &,const unsigned int &,T *&)' being compiled
+          with
+          [
+              T=double
+          ]
+  C:\ASAP-1.9\src\ASAP\filters\FilterThread.cpp(112): note: see reference to function template instantiation 'Patch<double> MultiResolutionImage::getPatch<double>(const __int64 &,const __int64 &,const unsigned __int64 &,const unsigned __int64 &,const unsigned int &)' being compiled
+c:\asap-1.9\src\core\Patch.hpp(243): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  c:\asap-1.9\src\core\Patch.hpp(239): note: while compiling class template member function 'void Patch<double>::calculateStrides(void)'
+  c:\asap-1.9\src\core\Patch.hpp(185): note: see reference to function template instantiation 'void Patch<double>::calculateStrides(void)' being compiled
+  c:\asap-1.9\src\core\Patch.hpp(157): note: while compiling class template member function 'Patch<double>::Patch(const std::vector<unsigned __int64,std::allocator<_Ty>> &,const pathology::ColorType &,T *,bool,std::vector<double,std::allocator<double>>,std::vector<double,std::allocator<double>>)'
+          with
+          [
+              _Ty=unsigned __int64,
+              T=double
+          ]
+  C:\ASAP-1.9\src\multiresolutionimageinterface/MultiResolutionImage.h(86): note: see reference to function template instantiation 'Patch<double>::Patch(const std::vector<unsigned __int64,std::allocator<_Ty>> &,const pathology::ColorType &,T *,bool,std::vector<double,std::allocator<double>>,std::vector<double,std::allocator<double>>)' being compiled
+          with
+          [
+              _Ty=unsigned __int64,
+              T=double
+          ]
+  c:\asap-1.9\src\core\Patch.hpp(55): note: while compiling class template member function 'Patch<double>::~Patch(void)'
+  C:\ASAP-1.9\src\ASAP\filters\FilterThread.cpp(112): note: see reference to function template instantiation 'Patch<double>::~Patch(void)' being compiled
+  c:\asap-1.9\src\core\Patch.hpp(29): note: see reference to class template instantiation 'Patch<double>' being compiled
+  FilterDockWidget.cpp
+  qrc_FilterWorkstationExtensionPlugin_resources.cpp
+  Generating Code...
+     Creating library C:/ASAP-1.9/build/ASAP/filters/Release/FilterWorkstationExtensionPlugin.lib and object C:/ASAP-1.9/build/ASAP/filters/Release/FilterWorkstationExtensionPlugin.exp
+  FilterWorkstationExtensionPlugin.vcxproj -> C:\ASAP-1.9\build\ASAP\filters\Release\FilterWorkstationExtensionPlugin.dll

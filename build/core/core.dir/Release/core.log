@@ -1,0 +1,12 @@
+﻿  Building Custom Rule C:/ASAP-1.9/src/core/CMakeLists.txt
+  filetools.cpp
+  stringconversion.cpp
+  PathologyEnums.cpp
+  ImageSource.cpp
+  Box.cpp
+  Point.cpp
+  ProgressMonitor.cpp
+  CmdLineProgressMonitor.cpp
+  Generating Code...
+     Creating library C:/ASAP-1.9/build/core/Release/core.lib and object C:/ASAP-1.9/build/core/Release/core.exp
+  core.vcxproj -> C:\ASAP-1.9\build\core\Release\core.dll
